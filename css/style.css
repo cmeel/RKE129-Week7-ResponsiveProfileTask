@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    .image-container {
+        background-image: url('../img/profile1.jpg');
+    }
+
+    .container {
+        background-color: rgb(23, 57, 23);
+        color: rgb(196, 172, 172);
+        width: 100%;
+    }
+
+    .footer ul a {
+        color: rgb(155, 119, 119);
+    }
+
+    .footer {
+        color:rgba(196, 172, 172, 0.687);
+    }
+    
+    .navigation ul li {
+        border-color: rgb(196, 172, 172);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    .image-container {
+        background-image: url('../img/profile2.jpg');
+    }
+
+    .container {
+        background-color: rgb(196, 182, 142);
+        color: rgb(132, 79, 79);
+        width: 100%;
+    }
+
+    .footer ul a {
+        color: rgb(96, 70, 70);
+    }
+
+    .footer {
+        color: rgba(132, 79, 79, 0.632);
+    }
+
+    .navigation ul li {
+        border-color:rgb(132, 79, 79);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+
+@media (min-width: 1024px){
+    .image-container {
+        background-image: url('../img/profile3.jpg');
+    }
+
+    .container {
+        background-color: pink;
+        color: rgb(138, 17, 17);
+        width: 100%;
+    }
+
+    .footer ul a {
+        color: rgb(79, 17, 17);
+    }
+
+    .footer {
+        color: rgba(138, 17, 17, 0.551);
+    }
+
+    .navigation ul li {
+        border-color: rgb(138, 17, 17);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .image-container {
+        background-image: url('../img/profile4.jpg');
+    }
+
+    .container {
+        background-color: rgb(6, 6, 71);
+        color: rgb(209, 238, 238);
+        width: 100%;
+    }
+
+    .footer ul a {
+        color: rgb(113, 133, 133);
+    }
+
+    .footer {
+        color: rgba(209, 238, 238, 0.476);
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        border-color: rgb(209, 238, 238);
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid ;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
+
+
